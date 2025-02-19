@@ -34,4 +34,34 @@
         tools:layout_editor_absoluteX="81dp"
         tools:layout_editor_absoluteY="282dp" />
 
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="515dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="119dp">
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="222dp"
+        android:layout_height="242dp"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="510dp" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="409dp"
+        android:layout_height="43dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="238dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
